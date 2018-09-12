@@ -1,0 +1,40 @@
+[03-Sep-2018 16:21:24 UTC] PHP Notice:  Undefined variable: obj in /home/cameradke/public_html/pokitel.com/itronsetup.php on line 2
+[03-Sep-2018 16:21:24 UTC] PHP Fatal error:  Call to a member function get() on null in /home/cameradke/public_html/pokitel.com/itronsetup.php on line 2
+[03-Sep-2018 16:21:24 UTC] PHP Notice:  Undefined variable: obj in /home/cameradke/public_html/pokitel.com/itroncron.php on line 2
+[03-Sep-2018 16:21:24 UTC] PHP Fatal error:  Call to a member function get() on null in /home/cameradke/public_html/pokitel.com/itroncron.php on line 2
+[03-Sep-2018 16:21:24 UTC] PHP Notice:  Undefined variable: obj in /home/cameradke/public_html/pokitel.com/itroncron.php on line 2
+[03-Sep-2018 16:21:24 UTC] PHP Fatal error:  Call to a member function get() on null in /home/cameradke/public_html/pokitel.com/itroncron.php on line 2
+[03-Sep-2018 16:53:01 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 16:53:06 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 16:53:22 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 16:53:33 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 16:53:55 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 16:54:17 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 17:39:58 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 17:40:14 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 17:40:58 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 17:45:12 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 17:45:16 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 17:45:31 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 17:45:37 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 17:48:05 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 17:55:52 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 17:55:56 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 18:03:28 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 18:04:52 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 18:15:08 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 18:15:12 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 18:16:19 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[03-Sep-2018 18:16:22 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/cameradke/public_html/pokitel.com/bin/magento on line 33
+[04-Sep-2018 14:43:08 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 69632 bytes) in /home/cameradke/public_html/pokitel.com/vendor/zendframework/zend-code/src/Scanner/FileScanner.php on line 36
+[04-Sep-2018 14:47:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Cli' not found in /home/cameradke/public_html/pokitel.com/bin/magento:31
+Stack trace:
+#0 {main}
+  thrown in /home/cameradke/public_html/pokitel.com/bin/magento on line 31
+[04-Sep-2018 16:01:13 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 69632 bytes) in /home/cameradke/public_html/pokitel.com/vendor/zendframework/zend-code/src/Scanner/FileScanner.php on line 36
+[04-Sep-2018 16:55:45 UTC] PHP Parse error:  syntax error, unexpected '$item' (T_VARIABLE) in /home/cameradke/public_html/pokitel.com/app/code/Wkd/Pokitel/Observer/Ordersms.php on line 76
+[04-Sep-2018 16:58:42 UTC] PHP Parse error:  syntax error, unexpected '$item' (T_VARIABLE) in /home/cameradke/public_html/pokitel.com/app/code/Wkd/Pokitel/Observer/Ordersms.php on line 76
+[04-Sep-2018 17:15:56 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/cameradke/public_html/pokitel.com/app/code/Wkd/Pokitel/Observer/Ordersms.php on line 77
+[12-Sep-2018 07:41:59 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/cameradke/public_html/pokitel.com/vendor/magento/module-checkout/view/frontend/templates/cart/shipping.phtml on line 18
+[12-Sep-2018 07:42:07 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/cameradke/public_html/pokitel.com/vendor/magento/module-checkout/view/frontend/templates/cart/shipping.phtml on line 18
+[12-Sep-2018 07:43:33 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/cameradke/public_html/pokitel.com/vendor/magento/module-checkout/view/frontend/templates/cart/shipping.phtml on line 18

@@ -1,0 +1,41 @@
+/*This is custom module css*/
+#delivery_postcode {
+	background-image: url('../images/Location.png');
+	background-repeat: no-repeat;
+	height: 40px;
+	border: none;
+	border-bottom: 2px solid #1979c3;
+	padding-left: 50px;
+	position: relative;
+	display: block;
+	z-index: 1;
+	float:  none;
+}
+._keyfocus *:focus, input:not([disabled]):focus, textarea:not([disabled]):focus, select:not([disabled]):focus{
+	box-shadow: none !important;
+}
+
+#checkAvailability-form #custom_postcode{
+	position: relative;
+	padding: 0px;
+	box-shadow: 0 0 black;
+}
+#checkAvailability-form .actions-toolbar{
+	position: absolute;
+	right: 0px;
+	margin: 0px;
+	z-index: 2;
+	top: 0;
+}
+#checkAvailability-form #postcode_checker{
+	margin: 0px;
+}
+#checkAvailability-form .message.success{
+	top: -20px;
+}
+#checkAvailability-form .message.error{
+	top: -20px;
+}
+#checkAvailability-form .postcode_checker_heading{
+	font-weight: 600;
+}

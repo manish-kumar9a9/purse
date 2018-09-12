@@ -1,0 +1,13 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+<!-- <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd"> -->
+	<head>
+		 <css src="Zr_Checkavailibilty::css/location.css"/>
+	</head>
+	<body>
+		<referenceContainer name="product.info.main">
+			<block class="Zr\Checkavailibilty\Block\Product\View\CheckAvailibilty"	after="-"
+				name="zr.checkavailibilty"	template="product/view/CheckAvailibilty.phtml" />
+			</referenceContainer>
+		</body>
+	</page>

@@ -1,0 +1,68 @@
+
+<?php
+  $writer = new \Zend\Log\Writer\Stream(BP . '/var/log/ship.log');
+  $logger = new \Zend\Log\Logger();
+  $logger->addWriter($writer);
+  $logger->info('checkout Success Observer');
+ ?>
+<?php $product = $this->getCurrentProduct() ?>
+<?php //if($product && $product->getCheckDeliveryEnable() == 1): ?>
+<?php if($product ): ?>
+	<?php
+      $logger->info(json_encode($product->getData()));
+       if($product && $product->getCheckShippingAvailable()==1){
+       	  //$this->helper('Zr\Checkavailibilty\Helper\Data')->setConfigData();
+       }else{
+       	  //$this->helper('Zr\Checkavailibilty\Helper\Data')->resetConfigData();
+       }
+       if($product && $product->getCheckCodAvailable()==1){
+       	  //$this->helper('Zr\Checkavailibilty\Helper\Data')->setCashConfigData();
+       }else{
+       	  //$this->helper('Zr\Checkavailibilty\Helper\Data')->resetCashConfigData();
+       }
+	?>
+	<form data-mage-init='{"validation": {}}' class="form" id="checkAvailability-form" method="post" autocomplete="off" onSubmit="return checkPostcode()">
+		<fieldset class="fieldset">
+			<legend class="legend"><span class="postcode_checker_heading"><?php echo __('Check Availability') ?></span></legend><br>
+			<div class="field required">
+				<label for="delivery_postcode" class="label"><span><?php echo __('Postcode') ?></span></label>
+				<div class="control" id="custom_postcode">
+					<input type="text" name="postcode" id="delivery_postcode" placeholder="<?php  echo __('Enter Product Delivery Pincode') ?>" value="" title="<?php echo __('Postcode') ?>" class="input-text" data-validate="{required:true, 'validate-digits':true}">
+					<div class="actions-toolbar">
+						<div class="primary">
+							<button type="submit" class="action submit primary" id="postcode_checker" title="<?php  echo __('Check Availability') ?>"><span><?php echo __('Check Availability') ?></span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="message"></div>
+		</fieldset>
+	</form>
+	<script type="text/x-magento-init">
+		{
+			"#checkAvailability-form": {
+			"validation": {}
+		}
+	}
+</script>
+<script>
+	function checkPostcode() {
+		var deliveryMessage = jQuery('#checkAvailability-form .message');
+		deliveryMessage.removeClass('success').removeClass('error').hide();
+		var deliveryForm = jQuery('#checkAvailability-form');
+		if(deliveryForm.valid()) {
+			jQuery.ajax({
+				type: "POST",
+				url: '<?php echo $this->getUrl('checkavailability/postcode/check',array('id'=>$product->getId())) ?>',
+				data: deliveryForm.serialize(),
+				dataType: "json",
+				showLoader: true,
+				success: function(response) {
+					deliveryMessage.addClass(response.type).html(response.message).show();
+				}
+			});
+		}
+		return false;
+	}
+</script>
+<?php endif; ?>
